@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    background-color: #0077FF;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.container{
+    flex-direction: column;
+    min-height: 100px;
+}
+
+#historia{
+    background: rgb(89, 168, 158);
+    padding: 20px;
+    float:left;
+    width: 45%;
+    margin:5px;
+}
+
+#oque{
+    background: rgb(89, 168, 158);
+    padding: 20px;
+    float:right;
+    width: 50%;
+    margin:5px;
+}
+
+#seaplica{
+    background: rgb(89, 168, 158);
+    padding: 20px;
+    float:right;
+    width: 50%;
+    margin:5px;
+}
+
+footer{
+    background-color: #0077FF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 66vh;
+    height: 60px;
+}
